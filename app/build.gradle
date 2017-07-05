@@ -28,15 +28,15 @@ android {
     signingConfigs {
         r {
             storeFile file(CERT_NAME)
-            storePassword "aa11ac08252007"
-            keyAlias "dingqiqi"
-            keyPassword "aa11ac08252007"
+            storePassword ""
+            keyAlias ""
+            keyPassword ""
         }
         d {
             storeFile file(CERT_NAME)
-            storePassword "aa11ac08252007"
-            keyAlias "dingqiqi"
-            keyPassword "aa11ac08252007"
+            storePassword ""
+            keyAlias ""
+            keyPassword ""
         }
     }
 
@@ -54,16 +54,6 @@ android {
         }
     }
 
-//    productFlavors {
-//        //生产环境
-//        Proc {
-//            buildConfigField "String", "URL_IMG_DOWNLOAD", "\"https://open.lakala.com/gateway/downloadPic\""
-//        }
-//        //调试环境
-//        Test_in {
-//            buildConfigField "String", "URL_IMG_DOWNLOAD", "\"http://10.7.111.138:8665/gateway/downloadPic\""
-//        }
-//    }
 
     lintOptions {
         abortOnError false
